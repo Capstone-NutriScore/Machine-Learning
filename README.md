@@ -10,23 +10,21 @@ Modul ini merupakan inti dari sistem kecerdasan buatan dalam aplikasi **NutriSco
    * Terdiri dari **40 kelas makanan**
    * Total **12.000 gambar**
    * Telah dibagi menjadi data training dan testing
-   * 📎 [Link Dataset](#)
+   * [Link Dataset](https://www.kaggle.com/datasets/feniakarenina/nutriscore-dataset)
 
 2. **🥗 Nutrition Dataset**
 
    * Berisi detail gizi untuk setiap jenis makanan
    * Meliputi kalori, lemak, protein
    * Digunakan untuk analisis kandungan gizi
-   * 📎 [Link Dataset](#)
+   * [Link Dataset](https://github.com/Capstone-NutriScore/Machine-Learning/blob/main/nutrition_dataset.csv)
 
 3. **🍛 Indonesian Recipes Dataset**
 
    * Berisi resep dan bahan makanan khas Indonesia
    * Digunakan untuk memberikan rekomendasi makanan yang lebih sehat
    * Dibagi untuk keperluan analisis dan saran masakan
-   * 📎 [Link Dataset](#)
-
----
+   * [Link Dataset](https://github.com/Capstone-NutriScore/Machine-Learning/blob/main/Indonesian_Recipes.csv)
 
 ## Arsitektur Model
 
@@ -39,8 +37,6 @@ Modul ini merupakan inti dari sistem kecerdasan buatan dalam aplikasi **NutriSco
 | Output Model | Label jenis makanan (kelas) |
 
 Model ini dibangun dengan pendekatan **transfer learning**, menggunakan arsitektur **MobileNetV2** yang ringan dan optimal untuk aplikasi berbasis mobile atau web.
-
----
 
 ## Cara Menjalankan
 
@@ -92,12 +88,7 @@ Untuk menjalankan proses pelatihan, evaluasi, dan inferensi model, Anda dapat me
      ```
   5. Pastikan struktur folder dataset sesuai dengan yang dijelaskan di notebook dan lanjutkan untuk menjalankan sel notebook secara berurutan.
 
----
 
 ## Hasil
 
-Model menunjukkan akurasi tinggi dalam mengenali jenis makanan, dan dapat diintegrasikan dengan komponen web (frontend/backend) untuk menampilkan skor gizi dan rekomendasi sehat secara real-time.
-
----
-
-Dengan panduan ini, Anda dapat menjalankan proyek **NutriScore** baik menggunakan Google Colab untuk kemudahan akses atau secara lokal jika Anda ingin mengontrol lebih banyak aspek dari proses pelatihan. Jika ada langkah lain yang perlu disesuaikan, beri tahu saya!
+Model menunjukkan akurasi tinggi (82%) dalam mengenali jenis makanan, dan dapat diintegrasikan dengan komponen web (frontend/backend) untuk menampilkan skor gizi dan rekomendasi sehat secara real-time.
