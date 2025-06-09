@@ -56,7 +56,7 @@ Untuk menjalankan proses pelatihan, evaluasi, dan inferensi model, Anda dapat me
      * Evaluasi akurasi
      * Prediksi dan visualisasi hasil
 
-> **Tidak diperlukan setup khusus** — cukup gunakan Google Colab untuk menjalankan notebook ini secara langsung.
+> **Setup khusus**: Anda perlu mengaktifkan GPU melalui Runtime > Change runtime type > GPU untuk mempercepat proses pelatihan model.
 
 ### 2. **Menjalankan Secara Lokal**
 
